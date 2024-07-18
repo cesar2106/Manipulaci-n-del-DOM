@@ -1,7 +1,7 @@
 // Añade un evento 'click' al botón con id 'startGame'
 document.getElementById('startGame').addEventListener('click', () => {
     // Array con las palabras posibles para el juego
-    const palabras = ['moises', 'isais', 'salmos'];
+    const palabras = ['moises', 'isais', 'salmos',`pedro`,`daniel`];
     // Selecciona una palabra secreta al azar del array de palabras
     let palabraSecreta = palabras[Math.floor(Math.random() * palabras.length)];
     // Crea una cadena con guiones bajos para representar la palabra oculta
